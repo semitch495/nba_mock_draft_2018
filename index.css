@@ -1,21 +1,60 @@
-/* img{
-  length: 1000px;
-  width: 1000px;
-}
-body{
-  background-color: orange;
-}
-table, th, td {
-    border: 1px solid black;
-} */
-
-
 body {
    display: flex;
    min-height: 100vh;
    flex-direction: column;
+   background-color: lightblue;
  }
 
  main {
    flex: 1 0 auto;
+ }
+
+#table {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ table, th, td {
+     border: 1px solid black;
+ }
+
+ #categories{
+   background-color: Grey;
+ }
+
+ #rows{
+   background-color: lightgrey;
+ }
+
+ #h4{
+   text-align: center;
+   color: darkblue;
+ }
+
+ #h5{
+   text-align: center;
+   color: darkblue;
+ }
+
+ #h6{
+   text-align: center;
+   color: darkblue;
+ }
+
+#choice{
+  text-align: center;
+  color: darkblue;
+}
+
+#submit{
+  text-align: center;
+  color: darkblue;
+}
+ #signup{
+   text-align: center;
+   color: darkblue;
+ }
+
+#test4{
+   text-align: center;
  }
